@@ -62,7 +62,6 @@
 		img.src = SPRITE_ROOT + ids[0] + '.png';
 		img.alt = species;
 		img.title = id;
-		img.loading = 'lazy';
 		img.setAttribute('data-id', id);
 		if (ids[1]) {
 			img.onerror = function () {
